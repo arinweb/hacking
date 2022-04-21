@@ -18,6 +18,13 @@ html {
 
 /* + + + TEMEL CSS KOD BAŞLANGICI */
 :root {}
+
+header{
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  flex-direction:row;
+}
 /* TEMEL CSS KOD BİTİŞİ - - - */
 
 /* + + + TELEFON */
