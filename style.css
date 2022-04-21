@@ -20,7 +20,7 @@ html {
 :root {}
 
 body{
-  background:url(https://images.pexels.com/photos/9396346/pexels-photo-9396346.jpeg?auto=compress&cs=tinysrgb&h=650&w=940),linear-gradient(250deg,#00ccff74,#1249d6aa);
+  background:linear-gradient(250deg,#00ccff74,#1249d6aa),url(https://images.pexels.com/photos/9396346/pexels-photo-9396346.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
   background-size:cover;
 }
 .card-sites{
