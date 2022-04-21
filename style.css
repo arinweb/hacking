@@ -2,7 +2,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
 
 * {
-  font-family:Oxanium;
+  font-family: Oxanium;
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -19,57 +19,61 @@ html {
 /* + + + TEMEL CSS KOD BAŞLANGICI */
 :root {}
 
-.card-sites{
-  background:linear-gradient(250deg,#00ccff74,#1249d6aa),url(https://images.pexels.com/photos/9396346/pexels-photo-9396346.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
-  background-size:cover;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  flex-direction:column;
-  padding:10px 5px;
-  font-size:20px;
-  position:fixed;
-  color:white;
-  top:0px;
-  left:0px;
-  right:0px;
-  bottom:0px;
+.card-sites {
+  background: linear-gradient(250deg,#00ccff74,#1249d6aa),url(https://images.pexels.com/photos/9396346/pexels-photo-9396346.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 5px;
+  font-size: 20px;
+  position: fixed;
+  color: white;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
 }
-.card-sites>*{
-  margin:10px 0px;
+.card-sites>* {
+  margin: 10px 0px;
 }
-.discord-icon{
-  font-size:60px !important;
+.discord-icon {
+  font-size: 60px !important;
 }
-.icon-arin{
-  width:20%;
-  border-radius:50%;
-  margin:15px 0px;
+.icon-arin {
+  width: 20%;
+  border-radius: 50%;
+  margin: 15px 0px;
 }
-h1{
-  font-family:Oxanium;
-  text-align:center;
-}
-
-a{
-  padding:10px;
-  border-radius:5px;
-  color:#000000aa;
-  background:#ffffffcc;
-  text-align:center;
-  text-decoration:none;
-  display:block;
-  font-size:16px;
-  margin:10px 0px;
-  font-weight:600;
+h1 {
+  font-family: Oxanium;
+  text-align: center;
 }
 
+a {
+  padding: 10px;
+  border-radius: 5px;
+  color: #000000aa;
+  background: #ffffffcc;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0px;
+  font-weight: 600;
+}
 
-.modal,#load-spinner{
-  display:none;
+
+.modal,#load-spinner {
+  display: none;
 }
 /* TEMEL CSS KOD BİTİŞİ - - - */
 
 /* + + + TELEFON */
-@media screen and (max-width:767px) {}
+@media screen and (max-width:767px) {
+  .icon-arin {
+    width: 45%;
+  }
+}
 /* TELEFON - - - */
