@@ -4,9 +4,7 @@ function app() {
   //$(".has-text-centered #sumstar").html("20894383");
   $("body").html("");
   var html_text = `
-  <ul>
-    <li>Merhaba</li>
-  </ul>
+  <h1 style="font-size:50px;" ></h1>
   `;
   $("body").html(table_text);
   
