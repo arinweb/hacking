@@ -19,14 +19,18 @@ html {
 /* + + + TEMEL CSS KOD BAŞLANGICI */
 :root {}
 
-header{
+body{
+  background:url(https://images.pexels.com/photos/9396346/pexels-photo-9396346.jpeg?auto=compress&cs=tinysrgb&h=650&w=940),linear-gradient(250deg,#00ccff74,#1249d6aa);
+  background-size:cover;
+}
+.card-sites{
   display:flex;
   align-items:center;
   justify-content:space-between;
   flex-direction:row;
   padding:10px 5px;
   font-size:20px;
-  background:orange;
+  background:;
   color:white;
 }
 header h1{
