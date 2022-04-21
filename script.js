@@ -22,7 +22,7 @@ function app() {
   $("body").html("");
   var html_text = `
   <header>
-  Header
+  <h1 style="color:white;font-size:50px;">Header</h1>
   </header>
   <style>
   body{
