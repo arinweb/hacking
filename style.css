@@ -34,6 +34,7 @@ html {
   left: 0px;
   right: 0px;
   bottom: 0px;
+  overflow:auto;
 }
 .card-sites>* {
   margin: 10px 0px;
