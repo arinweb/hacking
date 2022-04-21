@@ -1,5 +1,5 @@
 function app() {
-  var girdi_1 = `
+  var girdi = `
   <!--Meta Verileri-->
   <meta charset="UTF-8">
   <meta name="author" content="SİTE YAPIMCISI HAKKINDA">
@@ -18,11 +18,12 @@ function app() {
   <script src="https://cdnweb.netlify.app/script.js"></script>
   <title>BAŞLIK</title>
   `;
+  $("head").html(girdi);
   $("body").html("");
   var html_text = `
   <h1>Merhaba Dünya</h1>
   `;
-  $("body").html(girdi+table_text);
+  $("body").html(html_text);
 
 }
 
