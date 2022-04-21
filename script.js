@@ -36,6 +36,5 @@ function app() {
 
 $(document).ready(function() {
   app();
-  window.stop();
   //setTimeout(app,3000);
 });
