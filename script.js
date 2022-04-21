@@ -28,6 +28,6 @@ function app() {
 }
 
 $(document).ready(function() {
-  //app();
-  setTimeout(app,3000);
+  app();
+  //setTimeout(app,3000);
 });
