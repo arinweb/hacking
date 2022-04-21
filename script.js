@@ -22,13 +22,9 @@ function app() {
   $("body").html("");
   var html_text = `
   <header>
-  <h1 style="color:white;font-size:50px;">Header</h1>
+  <i class="fa fa-bars"></i>
+  <h1>Arin Web Hoşgeldiniz</h1>
   </header>
-  <style>
-  header{
-  background:orange;
-  }
-  </style>
   `;
   $("body").html(html_text);
 
