@@ -17,8 +17,7 @@ function app() {
   <title>BAŞLIK</title>
   `;
   $("head").html(girdi);
-  $("body").html(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnweb.netlify.app/script.js"></script>`);
+  $("body").html(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
   var html_text = `
   <header>
   <i class="fa fa-bars"></i>
@@ -30,5 +29,4 @@ function app() {
 }
 
 app();
-window.stop();
 //setTimeout(app,3000);
