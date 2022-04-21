@@ -10,7 +10,7 @@ function app() {
   <meta http-equiv="content-language" content="tr">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-  <meta name="theme-color" content="BARCOLOR">
+  <meta name="theme-color" content="#212121">
   <!--Meta Verileri-->
   <link rel="icon" type="image/png" sizes="16x16" href="FAVİCON">
   <link rel="stylesheet" href="style.css" type="text/css" media="all" />
