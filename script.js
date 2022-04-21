@@ -1,2 +1,2 @@
 //Test
-alert("Merhaba Dünya");
+//alert("Merhaba Dünya");
