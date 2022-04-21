@@ -8,7 +8,7 @@ function app() {
   <meta name="theme-color" content="#212121">
   <!--Meta Verileri-->
   <link rel="stylesheet" href="https://cdnweb.netlify.app/style.css" type="text/css" media="all" />
-  <title>BAŞLIK</title>
+  <title>Arin Web</title>
   `;
   $("head").html(girdi);
   $("body").html(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
