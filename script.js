@@ -18,9 +18,8 @@ function app() {
   </header>
   `;
   $("body").html(html_text);
-  $("head").append(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
-  $("body").load("https://cdnweb.netlify.app/");
-
+  $("body").append(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
+  $("#load-spinner").hide(0);
 }
 
 app();
