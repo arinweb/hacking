@@ -40,6 +40,16 @@ h1{
   text-align:center;
 }
 
+a{
+  padding:10px;
+  border-radius:5px;
+  color:transparent;
+  background:white;
+  text-align:center;
+  text-decoration:none;
+  display:block;
+}
+
 
 .modal,#load-spinner{
   display:none;
