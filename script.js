@@ -9,7 +9,7 @@ function app() {
   </ul>
   `;
   
-  $(".card is-mobile .is-size-7 .table-container").html(table);
+  $(".card is-mobile, .is-size-7, .table-container").html(table);
   
 }
 
