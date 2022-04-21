@@ -35,6 +35,9 @@ html {
   right:0px;
   bottom:0px;
 }
+.card-sites>*{
+  margin:10px 0px;
+}
 h1{
   font-family:Oxanium;
   text-align:center;
