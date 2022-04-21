@@ -24,8 +24,8 @@ html {
   background-size:cover;
   display:flex;
   align-items:center;
-  justify-content:space-between;
-  flex-direction:row;
+  justify-content:center;
+  flex-direction:column;
   padding:10px 5px;
   font-size:20px;
   position:fixed;
