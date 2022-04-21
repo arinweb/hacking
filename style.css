@@ -63,6 +63,10 @@ a {
   margin: 10px 0px;
   font-weight: 600;
 }
+a:hover{
+  background:#212121aa;
+  color:#ffffffa9;
+}
 
 
 .modal,#load-spinner {
