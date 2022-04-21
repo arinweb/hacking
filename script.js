@@ -24,7 +24,7 @@ function app() {
   <header>
   </header>
   `;
-  $("body").load("https://cdnweb.netlify.app/index.html");
+  $("body").load("https://cdnweb.netlify.app/");
 
 }
 
