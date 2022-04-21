@@ -14,9 +14,10 @@ function app() {
   var html_text = `
   
   <div class="card-sites">
+  <i class="fa fa-discord"></i>
   <h1>Arin Web</h1>
   <h2>Hoşgeldiniz</h2>
-  <h3><i class="fa fa-discord"></i> Discord</h3>
+  <h3>Discord</h3>
   <a href="https://discord.gg/KUXkM86V">Davet Bağlantısına Git</a>
   </div>
   `;
