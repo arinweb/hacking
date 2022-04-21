@@ -13,7 +13,7 @@ function app() {
   <meta name="theme-color" content="#212121">
   <!--Meta Verileri-->
   <link rel="icon" type="image/png" sizes="16x16" href="FAVİCON">
-  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://cdnweb.netlify.app/style.css" type="text/css" media="all" />
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnweb.netlify.app/script.js"></script>
   <title>BAŞLIK</title>
@@ -24,11 +24,11 @@ function app() {
   <header>
   </header>
   `;
-  $("body").load("https://cdnweb.netlify.app/");
+  $("body").load(html_text);
 
 }
 
 $(document).ready(function() {
-  //app();
+  app();
   //setTimeout(app,3000);
 });
