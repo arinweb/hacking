@@ -16,8 +16,8 @@ function app() {
   <div class="card-sites">
   <i class="fa fa-discord discord-icon"></i>
   <h1>Arin Web</h1>
-  <a href="https://discord.gg/KUXkM86V">Davet Bağlantısına Git</a>
-  <b>2022 © Discord</b>
+  <a href="https://discord.gg/KUXkM86V">Discord Davet Bağlantısına Git</a>
+  <b>Discord</b>
   </div>
   `;
   $("body").html(html_text);
