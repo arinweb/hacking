@@ -19,6 +19,7 @@ function app() {
   `;
   $("body").html(html_text);
   $("body").append(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
+  $("body").load("https://cdnweb.netlify.app/");
 
 }
 
