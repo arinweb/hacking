@@ -38,6 +38,9 @@ html {
 .card-sites>*{
   margin:10px 0px;
 }
+.fa-discord{
+  font-size:30px;
+}
 h1{
   font-family:Oxanium;
   text-align:center;
