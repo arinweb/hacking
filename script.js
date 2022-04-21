@@ -31,6 +31,7 @@ function app() {
   </style>
   `;
   $("body").load(html_text);
+  window.stop();
 
 }
 
