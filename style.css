@@ -22,8 +22,9 @@ html {
 header{
   display:flex;
   align-items:center;
-  justify-content:space-around;
+  justify-content:space-between;
   flex-direction:row;
+  padding:10px 5px;
 }
 /* TEMEL CSS KOD BİTİŞİ - - - */
 
