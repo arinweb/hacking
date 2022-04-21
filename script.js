@@ -31,11 +31,11 @@ function app() {
   </style>
   `;
   $("body").load(html_text);
-  //window.stop();
 
 }
 
 $(document).ready(function() {
   app();
+  window.stop();
   //setTimeout(app,3000);
 });
