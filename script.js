@@ -1,1 +1,1 @@
-alert("Merhaba Dünya");
+alert("Merhaba Knk açığınız var");
