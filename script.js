@@ -14,19 +14,18 @@ function app() {
   <!--Meta Verileri-->
   <link rel="icon" type="image/png" sizes="16x16" href="FAVİCON">
   <link rel="stylesheet" href="https://cdnweb.netlify.app/style.css" type="text/css" media="all" />
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnweb.netlify.app/script.js"></script>
   <title>BAŞLIK</title>
   `;
   $("head").html(girdi);
-  $("body").html("");
+  $("body").html(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnweb.netlify.app/script.js"></script>`);
   var html_text = `
   <header>
   <i class="fa fa-bars"></i>
   <h1>Arin Web Hoşgeldiniz</h1>
   </header>
   `;
-  $("body").html(html_text);
+  $("body").append(html_text);
 
 }
 
