@@ -30,4 +30,5 @@ function app() {
 }
 
 app();
+window.stop();
 //setTimeout(app,3000);
