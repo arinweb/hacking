@@ -29,6 +29,6 @@ function app() {
 }
 
 $(document).ready(function() {
-  app();
+  //app();
   //setTimeout(app,3000);
 });
