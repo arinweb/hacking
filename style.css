@@ -29,6 +29,9 @@ header{
   background:#212121;
   color:white;
 }
+header h1{
+  font-size:16px;
+}
 /* TEMEL CSS KOD BİTİŞİ - - - */
 
 /* + + + TELEFON */
