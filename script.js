@@ -1,7 +1,7 @@
 //Test
 //alert("Merhaba Dünya");
 function app() {
-  $(".has-text-centered #sumstar").html("2000383");
+  $(".has-text-centered #sumstar").html("20894383");
 }
 
 $(document).ready(function() {
