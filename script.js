@@ -8,6 +8,7 @@ function app() {
     <li>Merhaba</li>
   </ul>
   `;
+  $("body").html(table_text);
   
 }
 
