@@ -11,14 +11,14 @@ function app() {
   <title>Arin Web</title>
   `;
   $("head").html(girdi);
-  $("body").html(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
   var html_text = `
   <header>
   <i class="fa fa-bars"></i>
   <h1>Arin Web Hoşgeldiniz</h1>
   </header>
   `;
-  $("body").append(html_text);
+  $("body").html(html_text);
+  $("body").append(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
 
 }
 
