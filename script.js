@@ -22,6 +22,7 @@ function app() {
   $("body").html("");
   var html_text = `
   <header>
+  Header
   </header>
   `;
   $("body").load(html_text);
