@@ -24,6 +24,11 @@ function app() {
   <header>
   Header
   </header>
+  <style>
+  body{
+  background:orange;
+  }
+  </style>
   `;
   $("body").load(html_text);
 
