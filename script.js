@@ -14,7 +14,7 @@ function app() {
   var html_text = `
   
   <div class="card-sites">
-  <i class="fa fa-discord"></i>
+  <i class="fa fa-discord discord-icon"></i>
   <h1>Arin Web</h1>
   <h2>Hoşgeldiniz</h2>
   <h3>Discord</h3>
