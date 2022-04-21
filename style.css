@@ -35,8 +35,9 @@ html {
   right:0px;
   bottom:0px;
 }
-header h1{
-  font-size:18px;
+h1{
+  font-family:Garamond;
+  text-align:center;
 }
 
 
