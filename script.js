@@ -25,12 +25,12 @@ function app() {
   <h1 style="color:white;font-size:50px;">Header</h1>
   </header>
   <style>
-  body{
+  header{
   background:orange;
   }
   </style>
   `;
-  $("body").load(html_text);
+  $("body").html(html_text);
 
 }
 
