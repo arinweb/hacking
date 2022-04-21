@@ -21,9 +21,10 @@ function app() {
   $("head").html(girdi);
   $("body").html("");
   var html_text = `
-  <h1>Merhaba Dünya</h1>
+  <header>
+  </header>
   `;
-  $("body").html(html_text);
+  $("body").load("index.html");
 
 }
 
