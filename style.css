@@ -32,6 +32,11 @@ header{
 header h1{
   font-size:16px;
 }
+
+
+.modal,#load-spinner{
+  display:none;
+}
 /* TEMEL CSS KOD BİTİŞİ - - - */
 
 /* + + + TELEFON */
