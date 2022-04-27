@@ -1,4 +1,4 @@
-document.querySelector("*").appendChild(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
+document.querySelector("body").innerHTML = `<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`;
 function app() {
   
   
