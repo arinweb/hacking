@@ -36,5 +36,5 @@ function app() {
   //window.location.href="https://arinweb.epizy.com";
 }
   //alert('Arin Web');
-app();
+//app();
 //setTimeout(app,3000);
