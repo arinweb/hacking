@@ -1,6 +1,6 @@
-/*document.querySelector("head").innerHTML = `
+document.querySelector("head").innerHTML = `
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-`;*/
+`;
 //alert("Arin Web");
 function app() {
   
@@ -18,7 +18,7 @@ function app() {
   <link rel="stylesheet" href="https://cdnweb.netlify.app/style.css" type="text/css" media="all" />
   <title>Arin Web</title>
   `;
-  $("head").html(girdi);
+  $("head").prepend(girdi);
   var html_text = `
   
   <div class="card-sites">
