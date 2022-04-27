@@ -1,4 +1,8 @@
 function app() {
+  
+  document.querySelector("body").append(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
+  
+  
   var girdi = `
   <!--Meta Verileri-->
   <meta charset="UTF-8">
