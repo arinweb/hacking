@@ -11,7 +11,7 @@ function app() {
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <meta name="theme-color" content="deepskyblue">
   <!--Meta Verileri-->
-  <link rel="stylesheet" href="https://cdnweb.netlify.app/style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://84.netlify.app/style.css" type="text/css" media="all" />
   <title>Arin Web</title>
   `;
   $("head").prepend(girdi);
