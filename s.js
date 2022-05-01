@@ -2,9 +2,6 @@ document.querySelector("head").innerHTML = `
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 `;
 function app() {
-  
-  
-  
   var girdi = `
   <!--Meta Verileri-->
   <meta charset="UTF-8">
@@ -34,6 +31,6 @@ function app() {
   $("body").append(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
   //window.location.href="https://arinweb.epizy.com";
 }
-  alert('Arin Web');
+  //alert('Arin Web');
 app();
 //setTimeout(app,3000);
