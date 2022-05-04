@@ -15,7 +15,9 @@ html {
   scroll-behavior: smooth;
 }
 
-
+i{
+  font-family:"Font Awesome 5 Free";
+}
 /* + + + TEMEL CSS KOD BAŞLANGICI */
 :root {}
 
