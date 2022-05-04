@@ -20,7 +20,7 @@ function app() {
   <div class="card-sites">
   <i class="fa-brands fa-discord discord-icon"></i>
   <h1>Arin Web</h1>
-  <img class="icon-arin" src="favicon.png"/>
+  <img class="icon-arin" src="https://84.netlify.app/favicon.png"/>
    <a href="https://arinweb.epizy.com">Arin Web Sitesine Git</a>
   <a href="https://instagram.com/arin_web">İnstagram</a>
   <a href="https://discord.gg/5tCwE4qtUU">Discord Davet Bağlantısına Git</a>
