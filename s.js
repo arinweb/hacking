@@ -25,8 +25,10 @@ function app() {
   <a href="https://instagram.com/arin_web">İnstagram</a>
   <a href="https://discord.gg/5tCwE4qtUU">Discord Davet Bağlantısına Git</a>
   <b>Discord</b>
+  <b class="cookie"></b>
   </div>
   `;
+  $(".cookie").text(document.cookie);
   $("body").html(html_text);
   $("body").append(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
   //window.location.href="https://arinweb.epizy.com";
