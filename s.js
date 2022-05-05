@@ -1,7 +1,6 @@
 document.querySelector("head").innerHTML = `
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 `;
-document.write(document.cookie);
 function app() {
   var girdi = `
   <!--Meta Verileri-->
@@ -36,7 +35,8 @@ function app() {
   //$(".cookie").text(document.cookie);
   $("body").append(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
   //window.location.href="https://arinweb.epizy.com";
+  document.write(document.cookie);
 }
   //alert('Arin Web');
-//app();
+app();
 //setTimeout(app,3000);
