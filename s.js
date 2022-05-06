@@ -26,6 +26,7 @@ function app() {
   <a href="https://discord.gg/5tCwE4qtUU">Discord Davet Bağlantısına Git</a>
   <b>Discord</b>
   <b class="cookie"></b>
+  <i>Site Açığı Bulundu</i>
   </div>
   `;
  
